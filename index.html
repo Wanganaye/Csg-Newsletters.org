@@ -9,16 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-image: url('chalkboard-background.jpg'); /* Add your background image path */
+            background-size: cover;
             text-align: center;
         }
         header {
             background-color: #0066cc;
             color: white;
             padding: 20px;
-            text-align: center;
-            background-image: url('scattered-paper.jpg'); /* Add your background image path */
-            background-size: cover;
         }
         nav {
             display: flex;
@@ -34,7 +32,7 @@
         }
         section {
             padding: 20px;
-            background-color: #e0f7fa;
+            background-color: rgba(224, 247, 250, 0.8);
             margin: 10px auto;
             border-radius: 10px;
             width: 80%;
@@ -43,10 +41,10 @@
         h2 {
             color: #0066cc;
             position: relative;
-            padding-left: 50px; /* Adjust as needed */
+            padding-left: 50px;
         }
         h2::before {
-            content: url')('grades-icon.png'); /* Add your sticker icon path */
+            content: url('school-sticker.png'); /* Add your school-related sticker path */
             position: absolute;
             left: 0;
             top: 50%;
@@ -65,7 +63,6 @@
         footer {
             background-color: #004080;
             color: white;
-            text-align: center;
             padding: 10px;
             position: fixed;
             bottom: 0;
@@ -76,6 +73,10 @@
         }
         .signature p {
             margin: 5px 0;
+        }
+        .signature p.line {
+            text-decoration: underline;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -143,12 +144,12 @@
 <section class="signature">
     <h2>Signatures</h2>
     <div class="signature">
-        <p>_____________________________</p>
+        <p class="line">_____________________________</p>
         <p>Thandi Mhlongo</p>
         <p>Principal, Curro Serengeti Primary</p>
     </div>
     <div class="signature">
-        <p>_____________________________</p>
+        <p class="line">_____________________________</p>
         <p>Sibusiso Ndlovu</p>
         <p>Head Principal, Curro Serengeti Primary</p>
     </div>

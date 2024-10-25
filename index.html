@@ -10,49 +10,60 @@
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
+            text-align: center;
         }
         header {
             background-color: #0066cc;
             color: white;
             padding: 20px;
-            text-align: center.
+            text-align: center;
+            background-image: url('header-background.jpg'); /* Add your background image path */
+            background-size: cover;
         }
         nav {
             display: flex;
-            justify-content: center.
+            justify-content: center;
             background-color: #004080;
-            padding: 10px.
+            padding: 10px;
         }
         nav a {
-            color: white.
-            margin: 0 15px.
-            text-decoration: none.
-            font-weight: bold.
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
         section {
-            padding: 20px.
+            padding: 20px;
+            background-color: #e0f7fa;
+            margin: 10px auto;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .badge, .award, .scroll {
-            background-color: white.
-            margin: 10px.
-            padding: 10px.
-            border-radius: 5px.
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1).
+            background-color: white;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .badge h3, .award h3, .scroll h3 {
+            color: #0066cc;
         }
         footer {
-            background-color: #004080.
-            color: white.
-            text-align: center.
-            padding: 10px.
-            position: fixed.
-            bottom: 0.
-            width: 100%.
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
         .signature {
-            margin-top: 20px.
+            margin-top: 20px;
         }
         .signature p {
-            margin: 5px 0.
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -65,8 +76,11 @@
 
 <nav>
     <a href="#badges">Badges</a>
+	
     <a href="#awards">Awards</a>
+	
     <a href="#scrolls">Blazer Scrolls</a>
+	
 </nav>
 
 <section id="badges">
@@ -137,3 +151,4 @@
 
 </body>
 </html>
+
